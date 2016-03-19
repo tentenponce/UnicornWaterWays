@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+	  	<title>Unicorn Water Ways</title>
+	    <meta charset="utf-8"> 
+	    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="css/unicornic.css">
+	    <link rel="stylesheet" href="css/login.css">	    
+	    <script src="bootstrap/jquery/jquery.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+  	</head>
+  	<body>
+	  	<!--Navigation Bar-->
+	  	<nav id="nav" class="navbar navbar-inverse navbar-fixed-top">
+		  	<div class="container-fluid">
+		    	<div class="navbar-header">
+		    		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+			      	</button>
+		    		<a href="#home" class="navbar-brand">
+		    			<img src="img/unicornLogo2.png" height="40px" width="40px" style="margin-top: -9px"></img>
+					</a>
+		   	 	</div>
+		    	<div class="collapse navbar-collapse" id="myNavbar">
+			      	<ul class="nav navbar-nav">
+				      	<li><a href="index.php#home">Home</a></li>
+			        	<li class="dropdown">
+			        		<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+			        			Rooms<span class="caret"></span>
+			        		</a>
+			        		<ul class="dropdown-menu">
+			            		<li><a href="index.php#cottage">Cottages</a></li>
+			            		<li><a href="index.php#regroom">Regular Rooms</a></li>
+			            		<li><a href="index.php#grandroom">Grande Rooms</a></li>
+			            		<li><a href="index.php#suproom">Supreme Rooms</a></li>
+			          		</ul>
+		    	    	</li>
+			        	<li><a href="reviews.php">Reviews</a></li>
+			      	</ul>
+			      	<ul class="nav navbar-nav navbar-right">
+			        	<li>
+			        		<a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+			        	</li>
+			        	<li class="active">
+			        		<a href=""><span class="glyphicon glyphicon-log-in"></span> Login</a>
+			        	</li>
+			      	</ul>
+		    	</div>
+		 	</div>
+		</nav>
+		<!--End of Navigation Bar-->
+		<!--Login-->
+		<form role="form" id="reserve" class="card panel panel-default text-center panel-info" method="post" action="login.php?reserve=0">
+			<h3 class="panel-heading">Login to your Account</h3>
+			<div class="panel-body">
+				<div class="form-group">
+					<input type="text" class="form-control" id="username" name="email" placeholder="Email Address">
+				</div>
+				<div class="form-group">
+					<input type="password" class="form-control" id="pass" name="password" placeholder="Password">
+				</div>
+				<p>
+					<small>
+						Not yet registered? Sign up 
+						<a href="signup.html">here</a>.
+					</small>
+				</p>
+				<button class="btn btn-success">
+					Login
+					<span class="glyphicon glyphicon-share-alt"></span>
+				</button>
+			</div>
+		</form>
+		<!--End of Login-->
+		<!--Footer-->
+		<footer class="footer-basic-centered">
+			<p class="footer-company-motto">The company motto.</p>
+			<p class="footer-links" id="scroll-effect">
+				<a href="index.php#home">Home</a>
+				·
+				<a href="">About</a>
+				·
+				<a href="signup.html">Sign Up</a>
+				·
+				<a href="">Login</a>
+			</p>
+			<p class="footer-company-name">Unicorn Water Ways &copy; 2015</p>
+		</footer>
+		<!--End of Footer-->
+	</body>
+	<script src="js/unicornic.js"></script>
+</html>

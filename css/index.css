@@ -1,0 +1,336 @@
+ /* Nav */
+ #nav {
+ 	font-family: 'Century Gothic'; 
+ 	background: #101010;
+ }
+
+ #nav > .container-fluid > .navbar-header >
+ .navbar-brand > img {
+ 	margin-top: -9px;
+ }/* End of Nav */
+
+ /* Body */
+body {
+	height: 100%; 
+	padding: 0 15px; 
+	background: #212121;
+}
+
+/*Carousels*/
+.carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+     height: 900px !important;
+ }
+
+/*Home*/
+#home {
+	border-radius: 20px;
+}
+
+#home .carousel-inner{
+ 	z-index: -99; 
+	border-radius: 20px;
+	width: 100%;
+}
+
+#home .carousel-inner > .item > img { 
+	width: 100%;
+ 	margin: 0 auto;
+ 	min-height: 400px;
+}
+
+#dim {
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(null); 
+	top: 0;
+	width: 100%;
+	left: 0;
+	border-radius: 20px;
+}
+
+#absolutePos {
+	position: absolute;
+	top:0;
+	left: 0;
+	padding-top: 80px;
+	width: 100%;
+	text-align: center;
+}
+
+#absolutePos > img {
+	margin: 0 auto;
+}
+
+#absolutePos > p {
+	color: white; 
+	font-family: 'Century Gothic'; 
+	font-size: 20px; 
+	margin: 10px; 
+	padding: 0 30%; 
+	word-wrap: break-word;
+}
+
+@media (min-width: 300px) {
+	#absolutePos {
+		padding-top: 60px;
+	}
+
+	#absolutePos > img {
+		width: 100px;
+		height: 100px;
+	}
+
+	#absolutePos > p,
+	#absolutePos > nav > a > span {
+		font-size: 10px;
+	}
+}
+
+@media (min-width: 760px) {
+	#absolutePos {
+		padding-top: 60px;
+	}
+
+	#absolutePos > img {
+		width: 150px;
+		height: 150px;
+	}
+
+	#absolutePos > p,
+	#absolutePos > nav > a > span {
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 1000px) {
+	#absolutePos {
+		position: absolute;
+		top:0;
+		left: 0;
+		padding-top: 80px;
+		width: 100%;
+		text-align: center;
+	}
+
+	#absolutePos > img {
+		margin: 0 auto;
+		height: 250px;
+		width: 250px;
+	}
+
+	#absolutePos > p {
+		color: white; 
+		font-family: 'Century Gothic'; 
+		font-size: 20px; 
+		margin: 10px; 
+		padding: 0 30%; 
+		word-wrap: break-word;
+	}
+}/*End of Home*/
+
+/* Reserve Now Link */
+#link-effect a {
+	position: relative;
+	display: inline-block;
+	margin: 15px 25px;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+
+#link-effect a:hover,
+#link-effect a:focus {
+	outline: none;
+}
+
+.cl-effect-14 a {
+	padding: 0 20px;
+	height: 45px;
+	line-height: 45px;
+}
+
+.cl-effect-14 a::before,
+.cl-effect-14 a::after {
+	position: absolute;
+	width: 45px;
+	height: 2px;
+	background: #fff;
+	content: '';
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	pointer-events: none;
+}
+
+.cl-effect-14 a::before {
+	top: 0;
+	left: 0;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+.cl-effect-14 a::after {
+	right: 0;
+	bottom: 0;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-webkit-transform-origin: 100% 0;
+	-moz-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+}
+
+.cl-effect-14 a:hover::before,
+.cl-effect-14 a:focus::before {
+	left: 50%;
+	-webkit-transform: rotate(0deg) translateX(-50%);
+	-moz-transform: rotate(0deg) translateX(-50%);
+	transform: rotate(0deg) translateX(-50%);
+}
+
+.cl-effect-14 a:hover::after,
+.cl-effect-14 a:focus::after {
+	right: 50%;
+	-webkit-transform: rotate(0deg) translateX(50%);
+	-moz-transform: rotate(0deg) translateX(50%);
+	transform: rotate(0deg) translateX(50%);
+} /*End of Reserve Now Link */
+
+/* Reservation Form */
+#reserve {
+	font-family: 'Century Gothic'; 
+	margin: 20px 10%;
+}
+
+#reserve > .panel-body > button {
+	margin-top: 10px;
+}
+
+#checkInLayout, 
+#adultLayout {
+	float: right;
+	display: inline-block;
+}
+
+#checkOutLayout, 
+#childLayout {
+	float: left;
+	display: inline;
+}
+
+#checkInLayout > input,
+#checkOutLayout > input {
+	width: 250px;
+	margin: auto;
+}
+
+#adultLayout > input,
+#childLayout > input {
+	width: 80px;
+	margin: auto;
+} 
+
+#datePrice {
+	background: none;
+	border: none;
+	text-align: center;
+}/* End of Reservation Form */
+
+/* Supreme Room Carousel */
+#suproom {
+	padding: 2%;
+}
+
+#suproom > .room-info {
+	font-size: 15px;
+}
+
+#myCarousel > .carousel-inner > .item > img {
+	width: 100%;
+	margin: auto;
+	border-radius: 20px;
+}
+
+.carousel-control {
+	border-radius: 20px;
+} /* End of Supreme Room Carousel */
+
+/* Room Promo and Payment Info */
+#roomPromo {
+	font-family: 'Century Gothic';
+}
+
+.price {
+	font-size: 25px;
+} /* End of Room Promo and Payment Info */
+
+/* Reserve Rooms */
+.roomInfo {
+	padding: 2%;
+}
+
+/* Reserve Room buttons (Links) */
+.btn {
+	margin-top: 20px;
+}
+
+.btn-effect:visited, 
+.btn-effect:active, 
+.btn-effect:link {
+	text-decoration: none;
+	color: black;
+}
+
+/* Room Images */
+.room-img {
+	border-radius: 20px; 
+	width: 100%;
+}
+
+/* Room Texts */
+.room-info {
+	display: inline-block;
+	padding: 2%;
+	font-family: 'Century Gothic';
+	font-size: 15px;
+	border-radius: 5px;
+	border: 1px solid #e0e0e0;
+}
+
+.room-title {
+	font-family: 'Copperplate Gothic Light';
+	font-style: bold;
+}/* End of Room Texts */
+
+/* room availability color indentification */
+.green-circle {
+	display: inline-block;
+	border-radius: 500px;
+	width: 10px;
+	height: 10px;
+	background: #4CAF50;
+}
+
+.red-circle {
+	display: inline-block;
+	border-radius: 500px;
+	width: 10px;
+	height: 10px;
+	background: #F44336;
+}
+
+.yellow-circle {
+	display: inline-block;
+	border-radius: 500px;
+	width: 10px;
+	height: 10px;
+	background: #FFEB3B;
+} /* End of room availability color identification */

@@ -1,0 +1,20 @@
+body {
+	padding-top: 70px;
+}
+
+#specialOffers {
+	font-family: 'Century Gothic';
+	margin: 0 20% 30px;
+}
+
+.offers {
+	margin: 0 auto;
+}
+
+.footer-basic-centered {
+	margin-top: 20px;
+}
+
+th, tbody {
+	text-align: center;
+}

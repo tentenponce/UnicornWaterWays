@@ -1,0 +1,8 @@
+ #reserve {
+ 	font-family: 'Century Gothic';
+ 	margin: 80px 20% 30px;
+ }
+
+ #reserve > .panel-body {
+	padding: 2% 10%;
+ }

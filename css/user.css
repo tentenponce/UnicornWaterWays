@@ -1,0 +1,28 @@
+.panel {
+ 	font-family: 'Century Gothic';
+ 	margin: 80px 0 30px;
+}
+
+#feedback {
+	resize: vertical;
+	min-height: 150px;
+}
+
+.settings {
+	border: 1px solid #e0e0e0;
+	border-radius: 5px;	
+	padding: 2%;
+}
+
+.table {
+	font-size: 14px;
+}
+
+th, tbody{
+	text-align: center;
+}
+
+#transaction {
+	height: 300px;
+	overflow: auto;
+}

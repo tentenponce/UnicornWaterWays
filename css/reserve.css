@@ -1,0 +1,34 @@
+body {
+	padding-top: 70px;
+}
+
+#reserveInfo {
+	font-family: 'Century Gothic'; 
+	margin: 0 20% 30px;
+}
+
+#totalPrice {
+	font-size: 30px;
+}
+
+#submitReserve {
+	padding: 10px 30px;
+}
+
+ #reserve {
+ 	font-family: 'Century Gothic';
+ 	margin: 0 20% 30px;
+ }
+
+ #reserve > .panel-body {
+	padding: 2% 10%;
+ }
+
+ #payment-details {
+ 	border: 1px solid #e0e0e0;
+	border-radius: 5px;	
+ }
+
+ #payment-header {
+ 	background: #f5f5f5;	
+ }

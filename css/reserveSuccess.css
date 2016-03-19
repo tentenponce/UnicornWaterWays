@@ -1,0 +1,8 @@
+ #success {
+ 	font-family: 'Century Gothic';
+ 	margin: 80px 20% 30px;
+ }
+
+ #success > .panel-body {
+	padding: 2% 10%;
+ }

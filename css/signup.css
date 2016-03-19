@@ -1,0 +1,24 @@
+#signup {
+	font-family: 'Century Gothic'; 
+	margin: 80px 20% 30px;
+}
+
+#signup > .panel-body {
+	padding: 0 10%;
+}
+
+#signup .form-control {
+	margin-bottom: 10px;
+}
+
+#phoneStart {
+	margin-top: 5px;
+}
+
+#address {
+	resize: vertical;
+}
+
+#signup > .panel-body > a {
+	margin-top: 10px;
+}

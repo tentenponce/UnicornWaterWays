@@ -1,0 +1,46 @@
+body {
+	padding-top: 50px;
+}
+
+#reservations {
+ 	font-family: 'Century Gothic';
+}
+
+.table {
+	font-size: 14px;
+}
+
+th, tbody{
+	text-align: center;
+}
+
+#filter-setting {
+	border: 1px solid #e0e0e0;
+	border-radius: 5px;	
+	padding: 2%;
+}
+
+/* room reservation color coding */
+.green-circle {
+	display: inline-block;
+	border-radius: 500px;
+	width: 10px;
+	height: 10px;
+	background: #4CAF50;
+}
+
+.blue-circle {
+	display: inline-block;
+	border-radius: 500px;
+	width: 10px;
+	height: 10px;
+	background: #2196F3;
+}
+
+.yellow-circle {
+	display: inline-block;
+	border-radius: 500px;
+	width: 10px;
+	height: 10px;
+	background: #FFEB3B;
+}/* End of room reservation color coding */

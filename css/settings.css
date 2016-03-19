@@ -1,0 +1,23 @@
+body {
+	padding-top: 70px;
+}
+
+.settings {
+	font-family: 'Century Gothic';
+	margin: 0 10% 30px;
+}
+
+#motto {
+	resize: vertical;
+	text-align: center;
+}
+
+.setting-card {
+	border: 1px solid #e0e0e0;
+	border-radius: 5px;	
+	padding: 2%;
+}
+
+.form-control {
+	text-align: center;
+}
