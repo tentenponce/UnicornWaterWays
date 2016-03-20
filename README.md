@@ -1,7 +1,7 @@
 # UnicornWaterWays
 
 <h2>What's this?</h2>
-<p>Online Reservation with virtual bank System. A project for STI Caloocan.</p>
+<p>Online Reservation with virtual bank and email System. A project for STI Caloocan.</p>
 
 <h3>Features</h3>
 <ul>
