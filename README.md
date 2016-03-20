@@ -36,7 +36,7 @@
 <h3>Credits</h3>
 <ul>
 <li><a href="https://github.com/PHPMailer/PHPMailer">PHP Mailer</a></li>
-<li><a href="http://www.w3schools.com">w3schools.com</a>/li>
+<li><a href="http://www.w3schools.com">w3schools.com</a></li>
 <li>StackOverFlow.com</li>
 <li>STI College Caloocan</li>
 <li>Owner of the photos that I use (Google haha)</li>
